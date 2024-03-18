@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         String inputString = mockString(randomNumber(1, 10));
         boolean havePairChar = solution(inputString);
-        // debug solution
         System.out.println(havePairChar);
     }
 
@@ -28,7 +27,6 @@ public class Main {
 
     public static boolean solution(String S) {
         char[] charArray = S.toCharArray();
-        // debug charArray
         System.out.println(charArray);
 
         char beforeChar = charArray[0];
